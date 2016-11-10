@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Responsive and scale -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="description" content="Craft Interactive Assignment 2">
+  <meta name="keywords" content="HIV,LGBT,criminalization,law,laws">
+  <meta name="author" content="Brandon Shaik">
+
+  <!-- Links to stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="jquery.hotspot.css">
+  <script src="js/jquery.1.9.1.min.js"></script>
+  <script src="js/modernizr.custom.49511.js"></script>
+  <script src="js/jquery.hotspot.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function($) {
+        $('#container1').hotSpot({
+          slideshow : false, /*true or false */
+        });
+
+        var _pop2 = $('#container2').hotSpot({
+            slideshow : false,
+            // triggerBy : 'click',
+            autoHide : false
+        });
+
+        $('#image2').on('click', function(event) {
+            _pop2.hideCurrentPop();
+        });
+    });
+  </script>
+
+
+  <title>New Report Highlights "Broken" Criminal Justic System's Treament of LGBT People</title>
+
+
+</head>
+
+<body>
+  <div class="headline" id="main">
+    <h1>New Report Highlights "Broken" Criminal Justic System's Treament of LGBT People</h1>
+  </div>
+
+  <div class="headline" id="subhead">
+    <h3>"Outdated" HIV Criminalization Laws Target LGBT individuals.</h3>
+  </div>
+
+  <div class="headline" id="byline">
+    <h4>By Brandon Shaik</h4>
+  </div>
+
+  <div class="story">
+    <p>Michael Johnson, a gay college student from Missouri, has served eight months of a 30.5 year prison sentence, the equivalent of a homicide sentence. Johnson was charged with having sexual contact while infected with HIV and failing to document the disclosure of his status with his partners.</p>
+
+    <p>Johnson’s case is not unusual as laws criminalizing HIV remain in many U.S. states. A report released last month found that LGBT people are being criminalized at disproportionate rates largely due to laws related to having HIV, underscoring cases like Johnson’s and others.</p>
+
+    <p>Click on the image below to learn more about how LGBT individuals are overrepresented in the criminal justice system.</p>
+
+      <div id ="hotspot">
+    <div class="container" id="container1">
+    <div class="popover right pop1" data-easein="cardInRight" data-easeout="cardOutRight" id="pop1">
+    <div class="arrow"></div>
+    <div class="popover-inner">
+      <div class="popover-content">
+        <p>3.8 percent of adults in the U.S. identify as LGBT. In comparison, 7.9 percent of adults in prisons and 7.1 percent of adults in jails identify as LGBT, about twice as many as the national percentage.</p>
+      </div>
+    </div>
+  </div>
+
+ <div class="popover top pop2" data-easein="cardInTop" data-easeout="cardOutTop" id="pop2">
+    <div class="arrow"></div>
+    <div class="popover-inner">
+      <div class="popover-content">
+        <p>According to a 2015 survey conducted by the National Council on Crime and Delinquency, 20 percent of youth at seven different juvenile detention facilities identified at LGBT or gender non-conforming. LGBT youth that are displaced from their homes are two to three times more likely to encounter the criminal justice system than those who remain in their homes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="popover left pop3" data-easein="cardInLeft" data-easeout="cardOutLeft" id="pop3">
+    <div class="arrow"></div>
+    <div class="popover-inner">
+      <div class="popover-content">
+        <p>A 2010 <a href =“http://pediatrics.aappublications.org/content/pediatrics/early/2010/12/06/peds.2009-2306.full.pdf”>
+        study in Pediatrics</a> found that non-heterosexual adolescents had a higher risk of being stopped by the police, being expelled from school, juvenile arrest and conviction and adult conviction, particularly for non-heterosexual females.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <img src="arrow1.png" alt="info" class="info-icon info-icon1" data-target="pop1"  />
+  <img src="arrow1.png" alt="info" class="info-icon info-icon2" data-target="pop2"  />
+  <img src="arrow1.png" alt="info" class="info-icon info-icon3" data-target="pop3"  />
+  <img src="jail1.jpg" alt="" class="largeimage">
+
+    </div>
+  </div>
+
+    <p>“To what extent does putting someone into prison or jail help either that individual or public safety? That’s a huge question,” said Naomi Goldberg, Policy Specialist for the Movement Advancement Project and author of the report. “These laws don’t actually do anything to encourage people to get tested and know their status or help people who are actually living with HIV in their day to day lives.”</p>
+
+    <p>“There’s a lot of overlap between people who identify as LGBT and people who are living with HIV,” she said. “Our main argument is that these laws rely on outdated science and really target people living with HIV unfairly and don’t actually do anything to contribute to public safety.”</p>
+
+    <p>In the U.S. 38 states have HIV-specific laws, 33 states charge violations of these laws or statutes as felony offenses, and nine states require offenders to register as sex offenders, according to the report.</p>
+
+    <hr>
+    <div id = "blockquote">
+      <blockquote>“The public conversation in the U.S. currently is focused on criminal justice reform and the need for changes in the way that people interact with law enforcement and recognizing that we have one of the highest rates of incarceration in the world and the system is broken,” Goldgerg said. “Given that national conversation and that context, we felt like an examination of how LGBT people interact with those systems and with the criminal justice system was helpful both in terms of pushing for reforms that are comprehensive and that address these really high rates of incarceration for LGBT people but also to help localize LGBT communities to take criminal justice reform as an issue that we have a stake in and that we should care about.”</blockquote>
+    </div>
+    <hr>
+
+    <p>A report released by the Williams Intitute at the UCLA School of Law defines HIV criminalization as statutes that “criminalize otherwise legal conduct or that increase the penalties for illegal conduct based upon a person’s HIV-positive status.”<p>
+
+    <p>The state of California has four HIV-specific laws and one non-HIV specific law. Below is one of each, Cal. Health and Safety Code § 120291, a Felony, and Cal. Health and Safety Code § 120290, a Misdemeanor. Click on the highlighted portions of the document to read how each part of these laws affects those who live with HIV or who are at high risk of living with HIV.</p>
+
+    <iframe id="viewer" src="https://www.documentcloud.org/documents/2752143-HIVCode1.html" style="border:1px #000000 solid;" name="" scrolling="auto" align="" height="355" width="800">
+    </iframe>
+
+    <p>Collecting data from the state of California criminal justice system, the Williams Institute found that 800 people came in contact with the California criminal justice system between 1988 and 2014 in relation to their HIV status.</p>
+
+    <p>“Essentially if you’re charged with one of these HIV related charges in California you’re essentially guaranteed to be convicted, 99 percent of the cases in which individuals were charged they were ultimately convicted and almost all of the people had to serve time in prison or jail," Goldberg said.</p>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>

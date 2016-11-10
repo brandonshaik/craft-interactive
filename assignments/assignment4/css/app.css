@@ -1,0 +1,49 @@
+#header {
+  max-width:100% !important;
+  padding-bottom: 1.2em;
+}
+
+#first:first-letter {
+    font-size: 200%;
+
+}
+
+#quote{
+  font-size:160%;
+  font-style: italic;
+  font-weight: 500 !important;
+}
+
+.story{
+  font-size:95%;
+  line-height: 125%;
+}
+
+
+
+
+<div class="large-6 medium-12 small-12 columns" >
+            <div id="slickQuiz">
+              <h1 class="quizName"><!-- where the quiz name goes --></h1>
+
+            <div class="quizArea">
+                <div class="quizHeader">
+                    <!-- where the quiz main copy goes -->
+
+                    <a class="button startQuiz" href="#">Get Started!</a>
+                </div>
+
+                <!-- where the quiz gets built -->
+            </div>
+
+            <div class="quizResults">
+                <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+
+                <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+
+                <div class="quizResultsCopy">
+                    <!-- where the quiz result copy goes -->
+                </div>
+            </div>
+            </div>
+          </div>

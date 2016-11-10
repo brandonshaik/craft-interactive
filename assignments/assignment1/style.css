@@ -1,0 +1,63 @@
+body{
+
+	background-color: #ffffff;
+	margin: 50px 160px;
+}
+
+.headline{
+
+	color: #141414;
+	font-family: Raleway;
+  font-style: lighter;
+  font-variant: lighter;
+  font-weight: 100;
+  line-height: 15px;
+}
+
+#main{
+font-size: 18px;
+};
+
+#subhead{
+	/*font-style: italic;*/
+  font-size: 18px;
+
+};
+
+.story{
+	color: #141414;
+	font-family: Times;
+}
+
+.image{
+	float: right;
+	padding: 10px;
+	width: 500px;
+	height:375px;
+
+}
+
+.caption{
+
+	width: 500px;
+	height: 100px;
+	clear: right;
+	float: right;
+}
+
+#population{
+
+	float: right;
+
+}
+
+#income{
+
+	float: right;
+}
+
+.maphead{
+
+	font-family: Raleway;
+	line-height: 30px;
+}
